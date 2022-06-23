@@ -15,7 +15,7 @@ const getImages = async() => {
         description.innerHTML = item.name;
         let rating = document.createElement('div');
         rating.classList.add('rating');
-        rating.innerHTML = `Rating : ${item.rating}`;
+        rating.innerHTML = `Rating : ${item.rating} `;
         let star = document.createElement('i');
         star.classList.add('bi', 'bi-star-fill', 'colorGold');
         rating.appendChild(star);

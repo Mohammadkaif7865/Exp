@@ -4,7 +4,7 @@
   "description": "this is just to render the images in the html page",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "nodemon index.js"
   },
   "author": "monu",
   "license": "ISC"
